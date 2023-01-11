@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Point of Sale Project</title>
+    <link rel="stylesheet" href="checkout.css" />
+ 
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <button onclick="showHome()" id="homeBut">Home</button>
+            <button onclick="showCart()" id="cartBut">Cart</button>
+            <!-- <li><button> </li>
+            <li><button id="homeBut"></li> -->
+        </nav>
+        <h1 class="brand-name brand-name-large">Nike</h1>
+    </header>
+<div id="nikeItems">
+    <section class="container content-section">
+        <h2 class="section-header">Hats</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Nike White Hat</span>
+                <img class="shop-item-image" src="/images/whitehat.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$35</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+                </div>
+                <label>Description</label>
+                <span class="Hats1 description">White Hat with Nike Logo</span>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Nike Black Hat</span>
+                <img class="shop-item-image" src="/images/Blackhat.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$31</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+                </div>
+                <label>Description</label>
+                <span class="Hats2 description">Black Hat with Nike Logo</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">Pants</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Nike Blue Sweatpants</span>
+                <img class="shop-item-image" src="/images/bluepants.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$43</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+                </div>
+                <label>Description</label>
+                <span class="Pants1 description">Comfortable/Sporty Blue Sweats</span>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Nike Grey Sweatpants</span>
+                <img class="shop-item-image" src="/images/greypants.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$35</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+                </div>
+                <label>Description</label>
+                <span class="Pants2 description">Comfortable/Sporty Grey Sweats</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">Tops</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Nike White Shirt</span>
+                <img class="shop-item-image" src="/images/nikeshirt1.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$40</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+                </div>
+                <label>Description</label>
+                <span class="Tops1 description">White T-Shirt</span>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Nike Green Longsleeve</span>
+                <img class="shop-item-image" src="/images/nikeshirt2.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$40</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+                </div>
+                <label>Description</label>
+                <span class="Tops2 description">Green Longsleeve</span>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Nike White Jacket</span>
+                <img class="shop-item-image" src="/images/nikeJacket.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$45</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+                </div>
+                <label>Description</label>
+                <span class="Tops3 description">Winter White Jacket</span>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Nike Black Jacket</span>
+                <img class="shop-item-image" src="/images/nikeJacket2.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$45</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+                </div>
+                <label>Description</label>
+                <span class="Tops4 description">Winter Black Long Jacket</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">Shoes</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Nike Red Lowtops</span>
+                <img class="shop-item-image" src="/images/shoes.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$185</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+                </div>
+                <label>Description</label>
+                <span class="shoes1 description">Red Lowtop Running Shoes</span>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Nike Blue Hightops</span>
+                <img class="shop-item-image" src="/images/shoes 2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$220</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+                </div>
+                <label>Description</label>
+                <span class="shoes2 description">Blue Hightop Basketball Shoes</span>
+            </div>
+        </div>
+    </section>
+</div>
+
+<form id="nikeCart">
+    <section class="container content-section">
+        <h2 class="section-header">Cart</h2>
+        <div class="cart-items">
+        </div>
+        <div class="subtotal">
+            <strong class="subtotal-title">Subtotal</strong>
+            <span class="subtotal-total-price">$0</span>
+        </div>
+        <div class="sales-tax">
+            <strong class="sales-tax-title">Sales-Tax</strong>
+            <span class="sales-tax-price"> $0</span>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+<div id="cashOrCardDiv">
+        <div id="cashOrCard">
+            <div id="cashDiv">
+                <input type="radio" name="cc" id="cash" value="cash" >
+                <label for="cash">Cash</label>
+            </div>
+            <div id="cardDiv">
+                <input type="radio" name="cc" id="card" value="card" >
+                <label for="card">Card</label>
+            </div>
+        </div>
+        
+        <div id="ifCash">
+                <div class="cashBoxes" id="amtInp">
+                    <label for="cashAmt">Amount Paid:</label>
+                    <input id="cashAmt" type="number" placeholder="$$">
+                </div>
+        
+                <div class="cashBoxes" id="change">
+                    <p>Change: </p>
+                </div>
+        </div>
+        
+        <div id="ifCard">
+            <div class="cardInfo">
+                <p id="cardAmt">Amount:</p>
+                
+            </div>
+            <div class="cardInfo" id="cardInfo">
+                <label for="cardNum">Card Number: </label>
+                <input id="cardNum" maxlength= "19" type="text" placeholder="Card Number">
+            </div>
+                
+            <div class="cardInfo" id="cvvExp">
+                <div id="expDiv">
+                    <label for="exp">EXP</label>
+                    <input id="exp"  type="date" placeholder="EXP">
+                </div>
+        
+                <div id="cvvDiv">
+                    <label for="cvv">CVV</label>
+                    <input id="cvv" maxlength= "3" type="text" placeholder="CVV">
+                </div>
+            </div>
+        </div>
+        <div>
+        <button id="subBut" class="btn btn-primary btn-purchase" type="submit">Purchase</button>
+    </div>
+    </section>
+</form>
+</div>
+
+
+    <div id="rec">
+        <div>
+            <h1>Thank you for your purchase!</h1>
+            <h3 class="par" id="recItems">Items Purchased: </h3>  
+            <p class="par" id="recSub">Subtotal: </p>  
+            <p class="par" id="recTax">Tax: </p>  
+            <p class="par" id="recTot">Total: </p>  
+        </div>
+    </div>
+    
+    <script src="checkout.js"></script>
+</body>
+
+</html>
